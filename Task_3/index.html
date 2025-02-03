@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kononenko Maksym">
+  <title>ColorWave</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ColorWave</h1>
+    <p>Обирайте палітру для натхнення</p>
+  </header>
+  
+  <main id="palette-container">
+  </main>
+  
+  <section id="color-selection" class="hidden">
+    <button id="back-to-palettes">← Назад до палітр</button>
+    <div id="colors-container"></div>
+  </section>
+  
+  <div id="fullScreen" class="hidden">
+  </div>
+  
+  <audio id="copy-sound" src="assets/sound.mp3"></audio>
+  
+  <script src="script.js"></script>
+</body>
+</html>
